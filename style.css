@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/957/286/original/drawing-cute-sun-png-cartoon-illustration-image-vector.jpg);
+    /* border: 1px solid black; */
+    background-size: cover;
+    box-shadow: 0 0 100px 20px yellow;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+
+}
+.main:hover {
+    background-image: url(https://www.clker.com/cliparts/f/f/3/e/119498436179961113moon_charles_mccolm_01.svg.hi.png);
+    background-size: cover;
+    box-shadow:0 0 200px 100px white ,0 0 1500px 1800px rgb(0, 0, 0);
+    transform: translateX(400px) translateY(300px) rotateZ(360deg);
+    z-index: -10;
+}
+.star-1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+    z-index: 50;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0 0 50px 10px white; 
+    animation-name: star;
+    animation-duration: 3s;
+    transition-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+@keyframes star {
+    0%{
+        opacity:1;
+
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.two{
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.three {
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+.four {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+.five {
+    position: absolute;
+    top: 500px;
+    right: 200px;
+}
+.six{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+.seven {
+    position: absolute;
+    top: 200px;
+    right: -100px;
+}
+.eight{
+    position: absolute;
+    top: 800px;
+    right: 800px;
+}
+.nine {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.ten{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+.eleven {
+    position: absolute;
+    top: 80px;
+    right: 800px;
+}
